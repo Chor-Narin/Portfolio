@@ -10,16 +10,23 @@ import { Github, ExternalLink } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of your first project.",
-      technologies: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/yourusername/project1",
+      title: "E-commerce",
+      description: "A Vue.js-based project designed to provide users with a seamless shopping experience, allowing them to browse and purchase products effortlessly..",
+      technologies: ["Typescript", "Node.js", "MongoDB"],
+      github: "https://github.com/ChanSuvannet/e-commerce",
       live: "https://project1.com",
     },
     {
-      title: "Project 2",
-      description: "A brief description of your second project.",
-      technologies: ["Python", "Django", "PostgreSQL"],
+      title: "POS System ",
+      description: "A system that had two roles. Cashier and Admin. Cashier can only sell products and Admin can do everything within the system.",
+      technologies: ["Nestjs", "Typescript", "PostgreSQL", "JsReportOnline"],
+      github: "https://github.com/yourusername/project2",
+      live: "https://project2.com",
+    },
+    {
+      title: "Database Sharding ",
+      description: "A project that was designed to split the database into multiple databases to improve the performance of the system.",
+      technologies: ["Javascript", "MongoDB", "Node.js"],
       github: "https://github.com/yourusername/project2",
       live: "https://project2.com",
     },
